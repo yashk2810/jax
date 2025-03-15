@@ -1100,7 +1100,7 @@ class PytreeLeaf:
 def _process_in_axis_resources(in_shardings_treedef, in_shardings_leaves,
                                in_layouts_treedef, in_layouts_leaves,
                                in_avals, in_tree, debug_info: core.DebugInfo,
-                               device_or_backend_set, kws): 
+                               device_or_backend_set, kws):
   if not kws:
     in_tree, _ = treedef_children(in_tree)
 
